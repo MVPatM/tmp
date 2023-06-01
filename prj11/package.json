@@ -1,0 +1,45 @@
+{
+  "name": "prj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios-cookiejar-support": "^4.0.6",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-mysql-session": "^3.0.0",
+    "express-session": "^1.17.3",
+    "fabric-ca-client": "^2.2.18",
+    "fabric-common": "^2.2.18",
+    "fabric-contract-api": "^2.5.2",
+    "fabric-network": "^2.2.17",
+    "fast-csv": "^4.3.6",
+    "ipfs-api": "^17.5.0",
+    "ipfs-core": "^0.18.0",
+    "ipfs-http-client": "^53.0.1",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.1.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "papaparse": "^5.4.1",
+    "url": "^0.11.0",
+    "webpack": "^5.83.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.1"
+  },
+  "type": "module"
+}

@@ -1,0 +1,52 @@
+.mynft {
+    display : grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100%;
+}
+
+.nftlist {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height : calc(100vh - 250px);
+    
+    border-right : 0.2rem solid #3EB469;
+    border-left : 0.2rem solid #3EB469;
+    margin : 1vh 0vw 1.5vh 0vw;
+}
+
+.title {
+    font-size : 1.8vw;
+    margin : 1vw;
+    font-weight: bold;
+
+}
+
+.nftcomponent {
+    width : 90%;
+    font-size : 2vw;
+    text-align: center;
+    border-bottom: 0.2rem solid #3EB469;
+    margin : 1vw;
+}
+
+.nftinfo {
+    margin : 1vh 1vw 1.5vh 1vw;
+    border : 0.2rem solid #3EB469;
+    padding : 2vw;
+    font-size : 2vw;
+    display : grid;
+    grid-template-rows: 9fr 1fr;
+}
+
+.sellbutton {
+    margin : 0vh 15vw 0vh 15vw;
+    background-color: #3EB469;
+    border : none;
+    color : white;
+    font-size: 1.8vw;
+    font-weight: bold;
+    border-radius : 10vw;
+}

@@ -1,0 +1,18 @@
+.mintnft{
+    height: 100%;
+    display:grid;
+    grid-template-rows:1fr;
+}
+
+.fileupload{
+    border : 0.4rem dashed #3EB469;
+    margin : 10vh 4vw 10.5vh 4vw;
+    max-height : calc(100vh - 250px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dragmessage {
+    font-size: 3rem;
+}
